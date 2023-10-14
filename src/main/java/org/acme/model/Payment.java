@@ -13,7 +13,7 @@ import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "AKT_PAYMENT")
-public class Payment extends PanacheEntityBase {
+public class Payment {
 
     @Id
     @Column(name = "ID")
